@@ -1,0 +1,103 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fffaf0;
+}
+
+/*=====   MAIN LOGO   =====*/
+section.logo{
+	margin: 2%;
+	padding: 2%;
+	
+}
+section.logo h1{
+	font-size: 270%;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+section.logo p{
+	font-size: 57%;
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	
+}
+
+/*=====   MAIN image   =====*/
+img.mainimage{
+	float: right;
+	width: 30%;
+	height: 20%;
+	z-index: 1000;
+	margin-top: 0px;
+}
+
+/*=====   Signup Signin   =====*/
+section.signup{
+	margin-top: 10%;
+}
+a.register{
+
+	text-decoration: none;
+	color: black;
+	display: inline;
+	background-color: cyan;
+	padding: 1%;
+	margin: 1%;
+	display: block;
+	border-radius: 10px;
+	margin-right: 60%;
+	margin-bottom: 3.5%;
+}
+
+a.register:hover{
+	color: cyan;
+	background-color: black;
+}
+
+/*=====   Introduction Para   =====*/
+#introduction{
+	background-color: #D7BDE2;
+	height: 150px;
+	margin-top: 5%;
+}
+
+#introduction p{
+	margin-left: 170px;
+}
+
+img.intro_image{
+	float: left;
+	width: 170px;
+	z-index: 1000;
+}
+
+
+
+
+
+/*=====   media queries making website responsive   =====*/
+@media (max-width: 700px){
+	img.intro_image{
+		width: 130px;
+	}
+	#introduction{
+		height: 120px;
+	}
+	#introduction p{
+		margin-left: 130px;
+	}
+}
+
+@media (max-width: 550px){
+	img.intro_image{
+		width: 90px;
+	}
+	#introduction{
+		height: 100px;
+	}
+	#introduction p{
+		margin-left: 90px;
+	}
+}
