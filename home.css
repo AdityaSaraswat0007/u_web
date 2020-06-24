@@ -59,12 +59,16 @@ a.register:hover{
 /*=====   Introduction Para   =====*/
 #introduction{
 	background-color: #D7BDE2;
-	height: 150px;
+	height: 200px;
 	margin-top: 5%;
 }
 
 #introduction p{
 	margin-left: 170px;
+}
+
+#introduction p h3{
+	margin-left: 150px;
 }
 
 img.intro_image{
@@ -83,11 +87,15 @@ img.intro_image{
 		width: 130px;
 	}
 	#introduction{
-		height: 120px;
+		height: 140px;
 	}
 	#introduction p{
 		margin-left: 130px;
 	}
+	#introduction p h3{
+		margin-left: 110px;
+	}
+
 }
 
 @media (max-width: 550px){
@@ -95,9 +103,13 @@ img.intro_image{
 		width: 90px;
 	}
 	#introduction{
-		height: 100px;
+		height: 120px;
 	}
 	#introduction p{
 		margin-left: 90px;
 	}
+	#introduction p h3{
+		margin-left: 70px;
+	}
+
 }
