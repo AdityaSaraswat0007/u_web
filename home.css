@@ -76,8 +76,24 @@ img.intro_image{
 	width: 170px;
 	z-index: 1000;
 }
+/*=====   Flexbox   =====*/
+div.flex_intro{
+	display: flex;
+	justify-content: center;
 
-
+}
+div.flex_intro div{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: yellow;
+	width: 250px;
+	padding: 3%;
+	justify-content: center;
+	opacity: 0.5;
+}
+div.flex_intro div:hover{
+	opacity: 1;
+}
 
 
 
