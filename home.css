@@ -75,6 +75,7 @@ img.intro_image{
 	float: left;
 	width: 170px;
 	z-index: 1000;
+	display: inline;
 }
 /*=====   Flexbox   =====*/
 div.flex_intro{
@@ -134,12 +135,12 @@ div.flex_intro div:hover{
 }
 
 /*=====   media queries making website responsive   =====*/
-@media (max-width: 700px){
+@media (max-width: 1000px){
 	img.intro_image{
 		width: 130px;
 	}
 	#introduction{
-		height: 140px;
+		height: 200px;
 	}
 	#introduction p{
 		margin-left: 130px;
@@ -150,18 +151,53 @@ div.flex_intro div:hover{
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 900px){
+	section.logo{
+		font-size: 70%;
+	}
+	section.signup{
+		margin-top: 7%;
+	}
+	a.register{
+		width: 60%;
+		padding: 3ex;
+		font-size: 120%;
+	}
 	img.intro_image{
-		width: 90px;
+		width:100px;
+
 	}
 	#introduction{
-		height: 120px;
+		height:250px;
 	}
 	#introduction p{
-		margin-left: 90px;
+		margin: 2px;
+		padding: 1px;
+		padding-top: 0px;
 	}
-	#introduction p h3{
-		margin-left: 70px;
+	div.flex_intro{
+		display: inline;
+		margin: 1px;
+		justify-content: center;
 	}
+	div.flex_intro div{
+		float: left;
+		margin: 4%;
+		justify-content: center;
+		width: 110px;
+		font-size: 80%;
+	}
+	div.flex_intro div ul li{
+		padding: 1%;
+	}
+}
+@media (max-width: 550px){
+	div.flex_intro div{
+		display: grid;
+		margin: 1%;
+		justify-content: center;
+		width: 100px;
+		font-size: 60%;
 
+	}
 }
