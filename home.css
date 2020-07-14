@@ -201,3 +201,54 @@ div.flex_intro div:hover{
 
 	}
 }
+
+@media (max-width: 200px){
+	section.logo{
+		font-size: 70%;
+	}
+	section.signup{
+		margin-top: 7%;
+	}
+	a.register{
+		width: 60%;
+		padding: 3ex;
+		font-size: 120%;
+	}
+	img.intro_image{
+		width:100px;
+
+	}
+	#introduction{
+		height:250px;
+	}
+	#introduction p{
+		margin: 2px;
+		padding: 1px;
+		padding-top: 0px;
+	}
+	div.flex_intro{
+		display: inline;
+		margin: 1px;
+		justify-content: center;
+	}
+	div.flex_intro div{
+		float: left;
+		margin: 4%;
+		justify-content: center;
+		width: 110px;
+		font-size: 80%;
+	}
+	div.flex_intro div ul li{
+		padding: 1%;
+	}
+}
+@media (max-width: 550px){
+	div.flex_intro div{
+		display: grid;
+		margin: 1%;
+		justify-content: center;
+		width: 100px;
+		font-size: 60%;
+
+	}
+}

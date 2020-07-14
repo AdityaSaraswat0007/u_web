@@ -1,0 +1,63 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fffaf0;
+}
+
+/*=====   MAIN LOGO   =====*/
+section.logo{
+	margin: 2%;
+	padding: 2%;
+	
+}
+section.logo h1{
+	font-size: 270%;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+section.logo p{
+	font-size: 57%;
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	
+}
+
+/*=====   Footer   =====*/
+#footer{
+	height: 60px;
+	margin: 10px;
+	background-color: #5c755e;
+	clear: both;
+	border-radius: 5px;
+	color: #efe5d0;
+	text-align: center;
+	padding: 15px;
+	font-size: 90%;
+}
+
+#footer ul{
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+	border-radius: 5px;	
+}
+
+#footer ul li{
+	display: inline;
+}
+
+#footer ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #5c755e;
+}
+
+#footer ul li a:hover{
+	color: #000;
+	background-color: #fff;
+}
