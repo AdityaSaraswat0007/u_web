@@ -22,6 +22,49 @@ section.logo p{
 	clear: right;
 	
 }
+
+/*=====   Form   =====*/
+div.form{
+	background-color: #5DADE2;
+	width: 400px;
+	height: 300px;
+	float: right;
+	color: black;
+	padding: 8%;
+	font-size: 150%;
+	text-align: center;
+	margin: 5%;
+	display: inline;
+}
+
+.forgotpass{
+	float: right;
+	font-size: 80%;
+}
+
+.checkbox{
+	float: left;
+	font-size: 80%;
+}
+
+
+/*=====   image   =====*/
+img{
+	width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=====   Footer   =====*/
 #footer{
 	height: 60px;
@@ -59,3 +102,4 @@ section.logo p{
 	color: #000;
 	background-color: #fff;
 }
+
